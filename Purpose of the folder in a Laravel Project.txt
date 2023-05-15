@@ -1,0 +1,21 @@
+Purpose of each of the following folders in a Laravel project:
+
+app: This folder contains the core application code. It includes the models, controllers, and other classes or components that define the business logic and behavior of your application. 
+
+bootstrap:It includes the configuration for autoloading classes, registering service providers, and initializing the application.
+
+config:It includes files for database connections, caching, application settings, service providers, and other configuration options. You can modify these files to customize the behavior of your application.
+
+database: This folder is dedicated to database-related files. It includes database migrations, which are scripts used to create and modify database tables and schema. 
+
+public: This folder also typically holds publicly accessible assets, such as CSS files, JavaScript files, and uploaded files. It is the only folder that should be accessible directly from the web.
+
+resources: The resources folder contains non-PHP resources, such as views, language files, assets, and raw media files. 
+
+routes: The routes folder holds the route definitions for your application. It includes the files where you define the HTTP routes that map URLs to controllers or closure functions. The routes can be split into different files based on their purpose, such as web routes, API routes, or route groups.
+
+storage: The storage folder is used to store various files generated or manipulated by your application. It includes subfolders for app storage (uploaded files), framework storage (logs, cache files) and other temporary or persistent storage needs
+
+tests: The tests folder is where you can write automated tests for your Laravel application. It includes files and directories for unit tests, feature tests, and other types of tests. 
+
+vendor: The vendor folder is not initially present in a fresh Laravel installation. It is created when you run the Composer package manager to install dependencies specified in the composer.json file. The vendor folder contains all the third-party libraries and packages required by your application, managed by Composer.
